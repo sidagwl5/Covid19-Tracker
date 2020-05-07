@@ -1,0 +1,127 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.btn{
+
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  border-radius: 100%;
+  
+}
+
+span{
+
+  text-transform: uppercase;
+  font-weight: 550; 
+
+}
+
+
+.header{
+
+  position: absolute;
+  width: 100%;
+  height: 23vh;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .symbol{
+
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.header .symbol p{
+
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.header .color{
+
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.main{
+
+  position: relative;
+  padding: 30px 0px;
+  width: 100%;
+  background-color: #182f25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+  
+}
+
+.input{
+
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input button{
+
+  width: 100px;
+  background-color: orange;
+  border: none;
+  color: white;
+}
+
+input{
+
+  position: relative;
+  width: 70%;
+  height: 50px;
+
+}
+
+.tile{
+
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.tile span{
+
+  font-size: 20px;
+}
+
+h1{
+
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: #182f25;
+  padding: 30px;
+  padding-left: 10px;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
